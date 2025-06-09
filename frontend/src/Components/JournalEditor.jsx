@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { GoogleGenAI, Type } from '@google/genai';
 
 const genAI = new GoogleGenAI({
-  apiKey: import.meta.env.VITE_GOOGLE_GENAI_API_KEY
+  apiKey: "AIzaSyCkZxJra9GCBy7XDquZ9eSts8D_07JaArI"
 });
 
 export default function JournalEditor() {
