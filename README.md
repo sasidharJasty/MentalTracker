@@ -59,7 +59,7 @@ The Memory Map is the heart of EmotiJournal, providing a visual representation o
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/yourusername/emotijournal.git
+   git clone https://github.com/sasidharJasty/MentalTracker.git
    cd emotijournal
    ```
 
@@ -92,7 +92,7 @@ The Memory Map is the heart of EmotiJournal, providing a visual representation o
 ## 📦 Project Structure
 
 ```
-emotijournal/
+MentalTracker/
 ├── frontend/                # React frontend
 │   ├── public/              # Static assets
 │   ├── src/
