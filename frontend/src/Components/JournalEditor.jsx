@@ -6,7 +6,7 @@ import { useAuth } from '../context/AuthContext';
 const genAI = new GoogleGenAI({
   apiKey: import.meta.env.VITE_GOOGLE_API_KEY // Use environment variable
 });
-
+console.log(import.meta.env.VITE_GOOGLE_API_KEY);
 export default function JournalEditor() {
   const [entry, setEntry] = useState('');
   const [loading, setLoading] = useState(false);
