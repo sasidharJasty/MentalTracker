@@ -241,12 +241,7 @@ export default function Settings() {
         <h3 className="text-xl font-semibold text-gray-700 mb-4">Data Management</h3>
         
         <div className="flex flex-col space-y-4">
-          <button
-            onClick={handleExportData}
-            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
-          >
-            Export My Data
-          </button>
+
           
           <div className="bg-gray-100 p-4 rounded-lg text-sm text-gray-600">
             <p>Your data is stored locally in your browser and is never sent to a server (except when processing with AI).</p>
